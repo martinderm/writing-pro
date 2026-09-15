@@ -33,6 +33,9 @@ dann nachfragen, wenn sie den Text wesentlich verändern würden.
 - Für einen persönlichen oder organisationsspezifischen Ton lies nur das
   ausdrücklich gewählte Profil in [`profiles/`](profiles/). Das Profil ist eine
   konfigurierbare Quelle, keine allgemeine Stilvorgabe.
+- Zum Anlegen oder Überarbeiten eines Profils lies
+  [`profiles/create-style-profile.md`](profiles/create-style-profile.md) und
+  nutze [`profiles/style-profile.template.md`](profiles/style-profile.template.md).
 - Die vorhandene PDF-Referenz liegt unter
   [`references/sara-in-wondertech-how-to-teach-ai-to-write-like-you-anti-slop-writing-guide.pdf`](references/sara-in-wondertech-how-to-teach-ai-to-write-like-you-anti-slop-writing-guide.pdf).
   Die durchsuchbare Markdown-Fassung liegt unter
