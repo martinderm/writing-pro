@@ -24,7 +24,12 @@ Erstelle Texte, die ihren Zweck erfüllen und für ihre Zielgruppe natürlich wi
    Halte Aussagen nachvollziehbar; kennzeichne Annahmen, Lücken und Unsicherheiten.
 4. Überarbeite gegen den Zweck: Verständlichkeit, Konsistenz, Präzision,
    Perspektive, Rhythmus und konkrete Handlungsfähigkeit gehen vor dekorativer
-   Sprache.
+   Sprache. Jeder Absatz trägt genau einen Gedanken und dient dem
+   Kommunikationsziel; was nichts Neues bringt, fliegt. Cut-Test pro
+   verdächtigem Wort: streichen, Satz neu lesen — nur kürzer heißt Schnitt
+   bleibt, Bedeutungsverlust heißt wiederherstellen. Tell-Check gegen
+   `references/guo-field-guide-to-ai-slop.md` (nur echte Treffer zählen,
+   Red Herrings nicht).
 
 ## Routing
 

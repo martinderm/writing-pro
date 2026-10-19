@@ -7,6 +7,8 @@
 - Gültige Genres und Kanäle:
 - Nicht verwenden für:
 - Stand / letzte Überprüfung:
+- Register-Dials (optional): Formalität (1–5) und Tiefe (A–D) je Kontext;
+  Kernstimme konstant, Textur variabel.
 
 ## Evidenzbasis
 

@@ -15,6 +15,13 @@ LinkedIn-Notiz können dieselbe Stimme unterschiedlich realisieren. Nimm keine
 Texte, die bereits stark von KI oder anderen Redaktionen umgeschrieben wurden,
 ohne das kenntlich zu machen.
 
+Leichteinstieg bei wenig Material: Genügen 3–5 starke Beispiele, lässt sich
+statt der Vollanalyse ein Starter-Profil per Interview bauen — die KI stellt
+eine Frage nach der anderen zu Ton, Struktur, Rhythmus und Hassmustern und legt
+stattdessen Kontrastbeispiele zur Reaktion vor. Dazu eine Blacklist mit 5–10
+verhassten KI-Mustern und 2–3 Fremdbeispielen als Zielmarke. Reicht für den
+Anfang, ersetzt die Vollanalyse bei regelmäßigem Gebrauch nicht.
+
 ## 2. Muster statt Etiketten erfassen
 
 Arbeite mit konkreten Beobachtungen und Beispielen. Prüfe insbesondere:
@@ -26,6 +33,10 @@ Arbeite mit konkreten Beobachtungen und Beispielen. Prüfe insbesondere:
 - Direktheit, Humor, Haltung und Umgang mit Unsicherheit
 - Art, komplexe Sachverhalte zu erklären
 - Wörter, Formeln, Tonlagen und Behauptungen, die nicht passen
+- Rechtschreibung und Sprachvariante (etwa de-DE, de-CH, en-US)
+- Leseransprache: wann „ich“, „wir“, „man“ oder direkte Anrede
+- Enthusiasmusmodus: Superlative, Tiefe oder Detailfreude
+- Interpunktion: Gedankenstriche, Klammern, Semikolons, Ausrufezeichen
 
 Eine Aussage wie „klar und nahbar“ ist nur nützlich, wenn sie durch beobachtbare
 Merkmale ergänzt wird, etwa: „beginnt ohne Begrüßungsfloskel mit einer konkreten
@@ -44,7 +55,9 @@ wenn ihre Nutzung dafür erlaubt ist.
 
 Lass einen neuen, sachlich passenden Textentwurf erstellen. Markiere konkret,
 was nicht passt: fremde Wörter, zu glatte Sätze, erfundene Positionen oder
-Details, untypische Witze, generische Einstiege oder Wiederholungen.
+Details, untypische Witze, generische Einstiege oder Wiederholungen. Arbeite
+Evidence-first: Entwurf einfrieren, in separatem Durchgang nur prüfen (mit
+Belegzitaten), dann genau einmal gezielt rewriten.
 
 Überarbeite problematische Stellen nach Möglichkeit selbst. Die Differenz zwischen
 Entwurf und Korrektur ist die beste Evidenz für eine anschließende Profiländerung.
@@ -52,8 +65,10 @@ Entwurf und Korrektur ist die beste Evidenz für eine anschließende Profilände
 ## 5. Profil iterativ pflegen
 
 Ergänze nur Regeln, die mehrfach beobachtet oder im Test bestätigt wurden. Notiere
-Gegenbeispiele und Kontexte, in denen eine Regel nicht gilt. Ein Profil ist ein
-versioniertes Arbeitsartefakt: Es darf wachsen, soll aber nachvollziehbar bleiben.
+Gegenbeispiele und Kontexte, in denen eine Regel nicht gilt. Stimmen altern:
+nimm bei alten Samples immer etwas Aktuelles dazu, sonst konserviert das Profil
+ein früheres Ich. Ein Profil ist ein versioniertes Arbeitsartefakt: Es darf
+wachsen, soll aber nachvollziehbar bleiben.
 
 ## Verwendung und Schutz
 

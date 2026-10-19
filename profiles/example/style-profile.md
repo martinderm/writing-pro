@@ -7,6 +7,7 @@
 - Gültige Genres und Kanäle: Fachblog, Newsletter
 - Nicht verwenden für: Korrespondenz, Rechtstexte
 - Stand / letzte Überprüfung: 2026-10-19 (Beispieldatum)
+- Register-Dials (optional): Newsletter Formalität 3, Tiefe B; Fachblog Formalität 2, Tiefe C
 
 ## Evidenzbasis
 
