@@ -1,4 +1,6 @@
 .DS_Store
 .agents/session.lock
+profiles/local/*
+!profiles/local/.gitkeep
 references/sara-in-wondertech-how-to-teach-ai-to-write-like-you-anti-slop-writing-guide.pdf
 references/sara-in-wondertech-how-to-teach-ai-to-write-like-you-anti-slop-writing-guide.md

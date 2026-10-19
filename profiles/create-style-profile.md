@@ -34,7 +34,9 @@ Situation; verwendet kurze Absätze; vermeidet Superlative“.
 ## 3. Erstfassung erstellen
 
 Kopiere [`style-profile.template.md`](style-profile.template.md) in einen eigenen
-Unterordner, etwa `profiles/jane-doe/style-profile.md`. Halte Herkunft,
+Unterordner im konsumierenden Workspace, etwa
+`<workspace>/profiles/jane-doe/style-profile.md` (oder skill-lokal unter
+`profiles/local/jane-doe/`, gitignored). Halte Herkunft,
 Anwendungsgrenzen und Unsicherheiten fest. Beispiele dürfen nur abgelegt werden,
 wenn ihre Nutzung dafür erlaubt ist.
 
@@ -57,7 +59,8 @@ versioniertes Arbeitsartefakt: Es darf wachsen, soll aber nachvollziehbar bleibe
 
 Ein Stilprofil wird nur verwendet, wenn Auftrag und Profilinhaberin bzw.
 Profilinhaber zueinander passen. Es steuert Ausdruck und Form, nicht Fakten oder
-fachliche Beurteilungen. Profile können persönliche Daten und urheberrechtlich
-geschützte Beispiele enthalten; vor einer Veröffentlichung ist der in `SKILL.md`
-beschriebene Ausschluss zu prüfen.
+fachliche Beurteilungen. Live-Profile gehören in den Workspace (siehe `SKILL.md`,
+Abschnitt „Profilablage und Schutz“); der Skill-Ordner `profiles/` enthält nur
+Template, Methode und fiktives Beispiel. Profile können persönliche Daten und
+urheberrechtlich geschützte Beispiele enthalten.
 
