@@ -2,12 +2,15 @@
 
 ## Geltung
 
+- Profiltyp: Voll
 - Profilinhaberin bzw. Profilinhaber: fiktive Beispielperson
 - Zweck und bevorzugte Einsatzfälle: zeigt das Ausfüllen dieses Templates; nicht für echte Aufträge verwenden
 - Gültige Genres und Kanäle: Fachblog, Newsletter
 - Nicht verwenden für: Korrespondenz, Rechtstexte
+- Sprachvariante und Rechtschreibung: de-DE
 - Stand / letzte Überprüfung: 2026-10-19 (Beispieldatum)
-- Register-Dials (optional): Newsletter Formalität 3, Tiefe B; Fachblog Formalität 2, Tiefe C
+- Register-Dials (optional): Newsletter Formalität 3, Tiefe B; Fachblog
+  Formalität 2, Tiefe C (Anker siehe Template)
 
 ## Evidenzbasis
 
@@ -20,6 +23,8 @@
 - Grundton: sachlich, ruhig, ohne Superlative
 - Perspektive und Ansprache: Ich-Perspektive, direkte Ansprache
 - Typische Stärken: konkrete Beispiele, kurze Einordnung
+- Zielmarken für Starter-Profil: (Beispiel) drei fiktive Fachblogs mit
+  nüchternen Einleitungen; nur Muster übernommen, keine Inhalte
 - Umgang mit Unsicherheit, Konflikt und Meinung: Unsicherheit wird benannt („offen ist …“); keine Scheingewissheit
 
 ## Struktur und Rhythmus
@@ -34,10 +39,13 @@
 - Wiederkehrender Wortschatz und Formulierungen: „konkret“, „im Alltag heißt das“
 - Bildsprache, Humor und Direktheit: nüchterne Bilder, Humor sparsam und nie auf Kosten anderer
 - Art, komplexe Inhalte zu erklären: erst Beispiel, dann Regel
+- Enthusiasmusmodus: Detailfreude, keine Superlative
+- Interpunktion: Gedankenstriche sparsam, Klammern für Nebenbemerkungen,
+  keine Ausrufezeichen
 
 ## Ausschlüsse und Grenzen
 
-- Wörter, Formeln oder Tonlagen vermeiden: „game-changing“, „unlock“, „Delve“, „Es ist nicht X, es ist Y“
+- Blacklist — Wörter, Formeln oder Tonlagen vermeiden: „game-changing“, „unlock“, „entfessle das Potenzial“, „Delve“, „In der heutigen schnelllebigen Welt“
 - Keine Erfindung von Fakten, Erlebnissen, Meinungen oder Details: gilt ausnahmslos
 - Weitere kontextbezogene Grenzen: keine Erfolgszahlen ohne belegte Quelle
 

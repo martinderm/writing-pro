@@ -6,7 +6,10 @@
 - Titel: *How to teach AI to write like you — The Anti-Slop Writing Guide*
 - Webquelle: <https://sarainwonder.tech/shop/anti-slop-writing-guide>
 
-## Weitere Referenzen (Links; 1:1-Textspiegel lokal, gitignored)
+## Weitere Referenzen (Links)
+
+Textspiegel dieser Quellen sind Fremdinhalt, lokal gitignored unter
+`references/local/` (nur Eigengebrauch, siehe Lizenz).
 
 - Every, „AI Style Guides: How to Help AI Write Like You“ (Katie Parrott):
   <https://every.to/guides/ai-style-guide> — Methode: Interview statt
@@ -27,24 +30,29 @@
 
 ## Arbeitskopien (Bootstrap)
 
-PDF-Original und Konvertierungen sind absichtlich nicht versioniert (siehe
-Lizenz) und liegen nach manuellem Bezug unter `references/` mit den in
-`SKILL.md` bzw. unten genannten Dateinamen. Die Spiegel der Webquellen geben den
-Artikeltext 1:1 wieder (nur Site-Chrome wie Navigation, Subscribe-Boxen,
-Kommentare und Bild-Embeds entfernt; Stand des Abrufs jeweils im Dateikopf). Ohne lokale Kopien arbeitet der Skill nur mit Links und dieser
-Indexdatei — das genügt zum Starten; die Kopien verbessern Zitate und Detailtreue.
+PDF-Original, Maschinenkonvertierung und Textspiegel sind absichtlich nicht
+versioniert (siehe Lizenz) und liegen nach manuellem Bezug unter
+`references/local/` (gitignored):
 
-Hinweis zur Markdown-Fassung: maschinell konvertiert, Umbruch- und
+- `sara-in-wondertech-how-to-teach-ai-to-write-like-you-anti-slop-writing-guide.pdf`
+- `sara-in-wondertech-how-to-teach-ai-to-write-like-you-anti-slop-writing-guide.md`
+- `every-ai-style-guide.md`
+- `guo-field-guide-to-ai-slop.md`
+- `bouchard-anti-slop-template.md`
+- `eddie-teaching-ai-to-write-like-me.md`
+
+Die Spiegel geben den Artikeltext textgetreu wieder (nur Site-Chrome wie
+Navigation, Subscribe-Boxen, Kommentare und Bild-Embeds entfernt; Stand des
+Abrufs jeweils im Dateikopf). Ohne lokale Kopien arbeitet der Skill nur mit
+Links und dieser Indexdatei — das genügt zum Starten; die Kopien verbessern
+Zitate und Detailtreue, insbesondere beim Tell-Check.
+
+Hinweis zur Sara-Markdown-Fassung: maschinell konvertiert, Umbruch- und
 OCR-Artefakte sind bekannt; bei Zweifeln gelten PDF bzw. Webquelle.
 
 ## Lizenz
 
-Skill-Code: MIT, siehe `LICENSE.txt`. Der Sara-Guide ist eine kommerzielle
-Fremdquelle und nicht von MIT abgedeckt: lokale Kopien nur zum Eigengebrauch,
-weder einchecken noch weitergeben.
-
-## Künftige Genre-Blätter
-
-Noch keine ausgeliefert. Konvention bei Bedarf: `references/genres/<genre>.md`
-mit Zweck, drei bis fünf genretypischen Entscheidungen und Abgrenzung zu
-Stilprofilen; `SKILL.md` routet erst dorthin, sobald Blätter vorhanden sind.
+Skill-Code: MIT, siehe `LICENSE.txt`. Alle lokalen Spiegel und das Sara-PDF
+sind Fremdinhalt und nicht von MIT abgedeckt (der Sara-Guide zusätzlich
+kommerziell): lokale Kopien nur zum Eigengebrauch, weder einchecken noch
+weitergeben.

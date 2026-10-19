@@ -3,9 +3,10 @@
 Wiederverwendbarer Schreibskill: Auftrag klären, schreiben, gegen den Zweck
 überarbeiten. Siehe `SKILL.md` für Routing und Regeln.
 
-Stand: arbeitsfähig; Genre-Blätter noch keine, Referenz per manuellem Bootstrap
-(siehe `references/index.md`). Live-Profile liegen im konsumierenden Workspace,
-nicht in diesem Repo.
+Live-Stilprofile liegen im konsumierenden Workspace. Optional gibt es den
+gitignorierten Ordner `profiles/local/` für wiederverwendbare, nicht-sensible
+Profile; bei geteiltem Skill-Checkout sieht jeder nutzende Workspace dieselben
+Dateien. Referenzquellen per manuellem Bootstrap, siehe `references/index.md`.
 
 ### Standard Template for `AGENTS.md`
 

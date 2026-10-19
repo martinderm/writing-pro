@@ -2,9 +2,4 @@
 .agents/session.lock
 profiles/local/*
 !profiles/local/.gitkeep
-references/sara-in-wondertech-how-to-teach-ai-to-write-like-you-anti-slop-writing-guide.pdf
-references/sara-in-wondertech-how-to-teach-ai-to-write-like-you-anti-slop-writing-guide.md
-references/every-ai-style-guide.md
-references/guo-field-guide-to-ai-slop.md
-references/bouchard-anti-slop-template.md
-references/eddie-teaching-ai-to-write-like-me.md
+references/local/
