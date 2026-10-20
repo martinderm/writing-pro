@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/martinderm/writing-pro/master/references/schemas/profile-provenance.schema.json",
+  "title": "Writing profile provenance",
+  "description": "Maschinenlesbare Evidenzbasis eines Stilprofils (Sidecar provenance.json neben style-profile.md). Quellen werden referenziert, nicht dupliziert:.source_sha256 bezeichnet die Originaldatei (typischerweise im Workspace unter data/cloud/), receipt_ref verweist auf einen bestehenden cloud-atlas-Curation-Receipt.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "kind",
+    "profile_id",
+    "sources",
+    "exclusions",
+    "built_at"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "description": "Version dieses Schemas. Breaking Changes erhoehen die Version und erfordern eine Profilrevision."
+    },
+    "kind": {
+      "const": "writing-profile-provenance"
+    },
+    "profile_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Muss mit dem Frontmatter-Feld profile_id der style-profile.md uebereinstimmen."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["path", "source_sha256", "role"],
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Pfad der Originaldatei, workspace-relativ und mit Vorwaertsslashes (z. B. data/cloud/BOKUoneDrive-legacy/USAGE-NG/....pdf)."
+          },
+          "source_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$",
+            "description": "SHA-256 der Originaldatei (lowercase hex)."
+          },
+          "artifact_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$",
+            "description": "Optional: SHA-256 des Konvertats (z. B. Markdown-Spiegel), falls die Analyse ueber ein Konvertat lief."
+          },
+          "period": {
+            "type": "string",
+            "description": "Beobachtungszeitraum des Texts, freitextlich (z. B. 2022-03)."
+          },
+          "role": {
+            "type": "string",
+            "description": "Rolle im Korpus, z. B. application-chapter, interim-report, activity-report."
+          },
+          "receipt_ref": {
+            "type": "string",
+            "description": "Optional: Verweis auf einen cloud-atlas-Curation-Receipt (Pfad auf filemap-*-curation.json mit source_receipt)."
+          }
+        }
+      }
+    },
+    "exclusions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "reason"],
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Ausgeschlossene Quelle oder Quellbereich (workspace-relativ oder Ordnerpfad)."
+          },
+          "reason": {
+            "type": "string",
+            "description": "Begruendung des Ausschlusses (z. B. KI-gepraegt laut Auftraggeber, anderes Genre)."
+          }
+        }
+      }
+    },
+    "inclusion_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "Optional: SHA-256 ueber die kanonisierte Quellenliste (path + source_sha256, sortiert, mit LF verbunden) zur Abdeckung gegen Listen-Aenderung."
+    },
+    "built_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(Z|[+-]\\d{2}:\\d{2})$",
+      "description": "Zeitpunkt der Provenienz-Erstellung (ISO 8601)."
+    }
+  }
+}
