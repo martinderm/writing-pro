@@ -1,3 +1,16 @@
+---
+type: writing-profile
+profile_id: <kebab-case-id>
+profile_version: 0.1.0
+status: draft
+language_variants: [<z. B. en-GB>]
+genres: [<kebab-case-genre>]
+provenance: ./provenance.json
+created: <YYYY-MM-DD>
+updated: <YYYY-MM-DD>
+next_review: null
+---
+
 # Stilprofil: [Name oder Rolle]
 
 ## Geltung
@@ -38,6 +51,10 @@
 
 ## Sprachliche Muster
 
+Diese Sektion und die Blacklist werden in der Zielsprache des Profils verfasst
+(Metasprache für Geltung, Evidenzbasis und Protokoll bleibt die Arbeits-/Doku-
+mentationssprache) — so sind die Muster direkt als Few-shot-Kontext verwendbar.
+
 - Wiederkehrender Wortschatz und Formulierungen:
 - Bildsprache, Humor und Direktheit:
 - Art, komplexe Inhalte zu erklären:
@@ -57,3 +74,15 @@
 - Vorher-Nachher-Korrekturen:
 - Bestätigte Regeln und Gegenbeispiele:
 - Nächste Überprüfung:
+
+## Exemplar-Paare (Zielsprache)
+
+3–5 Satzpaare in der Zielsprache des Profils: „Do" ist ein profilgetreuer
+Mustersatz (Muster übernommen, Inhalt frei erfunden oder neutral), „Don't"
+dagegen ein typisches KI-Muster oder ein Profilbruch. Jedes Paar benennt in
+einer kurzen Anmerkung, worin der Unterschied liegt. Diese Paare sind der
+schnellste Few-shot-Kontext für Modell und Prüfung.
+
+- Do: …
+  Don't: …
+  (Anmerkung: …)

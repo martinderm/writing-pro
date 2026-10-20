@@ -1,3 +1,16 @@
+---
+type: writing-profile
+profile_id: beispielperson
+profile_version: 1.0.0
+status: tested
+language_variants: [de-DE]
+genres: [fachblog, newsletter]
+provenance: ./provenance.json
+created: 2026-10-19
+updated: 2026-10-19
+next_review: null
+---
+
 # Stilprofil: Beispielperson (fiktives Beispiel, keine echte Person)
 
 ## Geltung
@@ -55,3 +68,14 @@
 - Vorher-Nachher-Korrekturen: „unlocks new potential“ → „macht X im Alltag möglich“
 - Bestätigte Regeln und Gegenbeispiele: Einstieg mit Situation bestätigt (9/12); Listen nur bei 3+ Punkten (Gegenbeispiel: Ausgabe 7)
 - Nächste Überprüfung: entfällt (Beispielprofil)
+
+## Exemplar-Paare (Zielsprache, fiktive Beispiele)
+
+- Do: „Letzten Dienstag stand ich im Stall und habe gemerkt, dass die
+  Fütterungstabelle nicht mehr stimmt.“
+  Don't: „In der heutigen schnelllebigen Welt der modernen Landwirtschaft …“
+  (Anmerkung: konkrete Situation statt Welt-Floskel; das Do-Muster ist der
+  typische Einstieg.)
+- Do: „Das heißt im Alltag: erst die Weide zäunen, dann das Heu bestellen.“
+  Don't: „Es ist nicht nur eine Weide, es ist ein Versprechen an die Zukunft.“
+  (Anmerkung: handlungsfähige Folgerung statt Kontrast-Klischee.)

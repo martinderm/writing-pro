@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "kind": "writing-profile-provenance",
+  "profile_id": "beispielperson",
+  "sources": [
+    {
+      "path": "examples/fictional-newsletters/newsletter-01.md",
+      "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "period": "Beispielzeitraum",
+      "role": "newsletter",
+      "receipt_ref": "fiktiv - Beispielstruktur, keine echte Quelle"
+    }
+  ],
+  "exclusions": [
+    {
+      "path": "examples/fictional-newsletters/ki-rohfassungen/",
+      "reason": "KI-Rohfassungen sind als Profil-Evidenz ausgeschlossen (Beispiel fuer einen begruendeten Ausschluss)."
+    }
+  ],
+  "inclusion_hash": "6b54577f2da18ed4f1a9204bb9857af5376cdba0a463d059c4ee026aebcd7932",
+  "built_at": "2026-10-20T00:45:00+02:00"
+}
